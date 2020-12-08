@@ -12,7 +12,7 @@
     <size key="find.popup.0.0.1920.1080" width="584" height="753" />
   </component>
   <component name="WindowManager">
-    <frame x="12" y="50" width="1892" height="1014" />
+    <frame x="20" y="48" width="1876" height="1008" />
     <layout>
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
