@@ -3,7 +3,8 @@
  * Rofi version: 1.7.0
  **/
 * {
-    bg:        argb:1D202121;
+    bg:        argb:ee1D2021;
+    none:      argb:001D2021;
     bgop:      #1D2021;
     fg:        #d4be98;
     black0:    #665c54;
@@ -36,8 +37,8 @@
     dark-bg1:            rgba ( 60, 56, 54, 100 % );
 
     background:                  var(bg);
-    background-color:            var(background);
-    normal-background:           var(background);
+    background-color:            var(none);
+    normal-background:           var(none);
 
     foreground:                  var(fg);
     selected-normal-background:  var(black1);
@@ -46,24 +47,24 @@
     alternate-normal-foreground: var(fg);
     alternate-active-foreground: var(yellow0);
     border-color:                var(black1);
-    active-foreground:           var(bg);
+    active-foreground:           var(none);
 
-    separatorcolor:              var(bg);
+    separatorcolor:              var(none);
     scrollbar:                   true;
-    scrollbar-handle:            var(bg);
+    scrollbar-handle:            var(none);
 
     selected-active-background:  var(yellow0);
     alternate-urgent-background: var(urgent-background);
     selected-urgent-foreground:  var(urgent-foreground);
     highlight:                   bold italic ;
-    urgent-foreground:           var(bg);
-    alternate-urgent-foreground: var(urgent-foreground);
+    urgent-foreground:           var(none);
+    alternate-urgent-foreground: var(none);
     selected-active-foreground:  var(active-foreground);
     selected-urgent-background:  var(dark-red-light);
-    alternate-active-background: var(active-background);
-    active-background:           var(dark-yellow-dark);
-    alternate-normal-background: var(bg);
-    urgent-background:           var(dark-red-dark);
+    alternate-active-background: var(none);
+    active-background:           var(none);
+    alternate-normal-background: var(none);
+    urgent-background:           var(none);
 }
 window {
     padding:          2;
