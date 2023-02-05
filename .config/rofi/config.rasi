@@ -42,6 +42,7 @@ configuration {
 /*	scroll-method: 0;*/
 /*	window-format: "{w}    {c}   {t}";*/
 /*	click-to-exit: true;*/
+    /*theme: "theme.rasi";*/
 /*	max-history-size: 25;*/
 /*	combi-hide-mode-prefix: false;*/
 /*	matching-negate-char: '-' /* unsupported */;*/
@@ -145,4 +146,4 @@ kb-row-down:                    "Down,Alt+j";
   }
 }
 
-@import "~/.config/rofi/theme.rasi"
+@import "theme.rasi"
